@@ -1,2 +1,1 @@
-# homework
- 
+# homework JS GoIt
