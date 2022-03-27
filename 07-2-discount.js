@@ -13,7 +13,7 @@
     -В результате вывести сообщение:
     "Оформляем заказ на сумму [сумма] со скидкой [скидка]"  */
 
-const totalSpent = 500
+let totalSpent = 500
 let payment = 500
 let discount = 0
 
@@ -33,4 +33,8 @@ if (totalSpent >= 100 && totalSpent < 1000) {
     discount = 0
 }
 
+payment = payment - payment * discount
 console.log(`Оформляем заказ на сумму ${payment} со скидкой ${discount * 100}%`);
+
+totalSpent += payment
+console.log(`Общая сумма потраченного в магазе: ${totalSpent}`);
