@@ -54,7 +54,7 @@ const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax']
 
 // Декларативный код (более красивый). Если не нужен индекс и не нужно изменять элемент массива
 for (const friend of friends) {
-    console.log(friend);
+    // console.log(friend);
 }
 
 // console.table(friends)
