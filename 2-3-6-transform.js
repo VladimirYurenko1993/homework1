@@ -6,10 +6,14 @@
 
 
 const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax']
-let string = ''
+// let string = ''
 
-for (const friend of friends) {
-    string += friend + ', '
-}
+// for (const friend of friends) {
+//     string += friend + ', '
+// }
 
-console.log(string.slice(8));
+// string = string.slice(0, string.length - 2)
+// console.log(string);
+
+const string = friends.join(', ')
+console.log(string);
