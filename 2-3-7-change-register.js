@@ -11,13 +11,17 @@ let invertedString = ''
 for (const letter of letters) {
     // console.log(letter);
 
-    if (letter === letter.toLowerCase()) {
-        // console.log('Эта буква в нижнем регистре - ', letter);
+    //     if (letter === letter.toLowerCase()) {
+    //         // console.log('Эта буква в нижнем регистре - ', letter);
 
-        invertedString += letter.toUpperCase()
-    } else {
-        invertedString += letter.toLowerCase()
-    }
+    //         invertedString += letter.toUpperCase()
+    //     } else {
+    //         invertedString += letter.toLowerCase()
+    //     }
+    // }
+
+    invertedString += letter === letter.toLowerCase()
+        ? letter.toUpperCase()
+        : letter.toLowerCase()
 }
-
-console.log(invertedString);
+console.log('invertedString', invertedString);
