@@ -43,7 +43,7 @@
     - for...of - если индекс не нужен и в массиве ничего менять не нужно    */
 
 
-const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax']
+// const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax']
 // console.table(friends)
 
 // for (let i = 0; i < friends.length; i += 1) {
@@ -53,8 +53,10 @@ const friends = ['Mango', 'Kiwi', 'Poly', 'Ajax']
 // console.table(friends)
 
 // Декларативный код (более красивый). Если не нужен индекс и не нужно изменять элемент массива
-for (const friend of friends) {
+// for (const friend of friends) {
     // console.log(friend);
-}
+// }
 
 // console.table(friends)
+
+
